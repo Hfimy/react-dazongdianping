@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: path.resolve(__dirname, 'index.js'),
+    entry: path.resolve(__dirname, 'app/index.js'),
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
@@ -43,7 +43,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, 'index.tmpl.html'),
+            template: path.resolve(__dirname, 'app/index.tmpl.html'),
             // favicon: path.resolve(__dirname, 'app/src/favicon.ico')
         }),
         new webpack.HotModuleReplacementPlugin(),
