@@ -1,0 +1,43 @@
+{
+  "name": "react-dazongdianping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "start webpack-dev-server --public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hfimy/react-dazongdianping.git"
+  },
+  "author": "hfimy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hfimy/react-dazongdianping/issues"
+  },
+  "homepage": "https://github.com/Hfimy/react-dazongdianping#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-react-html-attrs": "^2.1.0",
+    "babel-plugin-react-transform": "^3.0.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "less-loader": "^4.0.5",
+    "postcss-loader": "^2.0.9",
+    "react-transform-hmr": "^1.0.4",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}

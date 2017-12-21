@@ -1,0 +1,39 @@
+{
+    "presets": [
+        "env",
+        "stage-0",
+        "react"
+    ],
+    "plugins": [
+        // [
+        //     "import",
+        //     {
+        //         "libraryName": "antd",
+        //         "style": true
+        //     }
+        // ],
+        ["react-html-attrs"]
+    ],
+    "env": {
+        "development": {
+            "plugins": [
+                [
+                    "react-transform",
+                    {
+                        "transforms": [
+                            {
+                                "transform": "react-transform-hmr",
+                                "imports": [
+                                    "react"
+                                ],
+                                "locals": [
+                                    "module"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            ]
+        }
+    }
+}
