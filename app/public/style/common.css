@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: '微软雅黑', 'Times New Roman', Georgia, Serif;
+}
+
+body{
+    background-color: #f1f1f1;    
+}
+
+input{
+    outline: none;
+}
+
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+
+.clear:before{
+    content:'';
+    display: table;
+    clear:both;
+}
+.clear:after{
+    content: '';
+    display: table;
+    clear:both;
+}

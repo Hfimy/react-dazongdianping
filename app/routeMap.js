@@ -1,8 +1,8 @@
 import React from 'react';
 import {Router,Route,IndexRoute,hashHistory,browserHistory} from 'react-router';
 
-import App from './container/index';
-import Home from './home/index';
+import App from './container/app';
+import {view as Home} from './home/';
 import NotFound from './container/notFound';
 
 export default ()=>(
