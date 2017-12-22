@@ -29,6 +29,9 @@ module.exports = {
             },
         ]
     },
+    resolve:{
+        extensions:['.js','.jsx','.json','.css','.less']
+    },
     devtool: 'inline-source-map',
     devServer: {
         // proxy:{

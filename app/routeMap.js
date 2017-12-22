@@ -2,7 +2,7 @@ import React from 'react';
 import {Router,Route,IndexRoute,hashHistory,browserHistory} from 'react-router';
 
 import App from './container/app';
-import {view as Home} from './home/';
+import Home from './container/home/';
 import NotFound from './container/notFound';
 
 export default ()=>(

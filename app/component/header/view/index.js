@@ -11,7 +11,7 @@ class Header extends Component {
 
     render() {
         return (
-            <header class='home-header clear-fix'>
+            <header class='home-header clearfix'>
                 <div class='home-header-left fl'>
                     <span>{this.props.city}</span>
                     {/* 虽然在jsx里一切没有子元素的标签都可以自闭和，但是为了兼容原生的DOM，还是建议按DOM标准书写*/}

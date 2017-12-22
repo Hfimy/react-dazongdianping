@@ -20,12 +20,12 @@ input{
     float:right;
 }
 
-.clear:before{
+.clearfix:before{
     content:'';
     display: table;
     clear:both;
 }
-.clear:after{
+.clearfix:after{
     content: '';
     display: table;
     clear:both;
