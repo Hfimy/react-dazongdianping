@@ -29,8 +29,8 @@ module.exports = {
             },
         ]
     },
-    resolve:{
-        extensions:['.js','.jsx','.json','.css','.less']
+    resolve: {
+        extensions: ['.js', '.jsx', '.json', '.css', '.less']
     },
     devtool: 'inline-source-map',
     devServer: {
@@ -41,7 +41,7 @@ module.exports = {
         historyApiFallback: true,
         inline: true,
         hot: true,
-        port: 8082,
+        port: 8080,
         open: true
     },
     plugins: [
@@ -51,7 +51,7 @@ module.exports = {
         }),
         new webpack.HotModuleReplacementPlugin(),
         new webpack.DefinePlugin({
-            __DEV__: JSON.stringify(JSON.parse((process.env.NODE_ENV === 'dev') || false))
+            __DEV__: false
         })
     ]
 }

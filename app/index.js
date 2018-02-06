@@ -1,23 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { render } from 'react-dom';
 
 import { Provider } from 'react-redux';
 
 import store from './store';
-import RouteMap from './routeMap';
+import App from './route';
 
 import './public/style/common.css';
 import './public/style/font.css';
 
-class Root extends Component {
-    render() {
-        return (
-            <Provider store={store}>
-                <RouteMap />
-            </Provider>
-        )
-    }
-}
-
-
-render(<Root />, document.getElementById('root'));
+render(
+    <Provider store={store}>
+        <App />
+    </Provider>,
+    document.getElementById('root')
+);

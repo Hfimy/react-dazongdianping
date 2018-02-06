@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import { view as Header } from '../../component/header/'
-import Carousel from '../../component/carousel/';
+import { view as Header } from '../../component/Header'
+import Carousel from './carousel/';
 
 import { connect } from 'react-redux';
 

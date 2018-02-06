@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "set NODE_ENV=dev && start webpack-dev-server --public",
+    "dev": "set NODE_ENV=dev && webpack-dev-server --public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

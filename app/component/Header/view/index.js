@@ -23,7 +23,7 @@ class Header extends Component {
                 <div class='home-header-middle'>
                     <div class='search-container'>
                         <i class='icon-search'></i>
-                        <input class='clearfix' placeholder='请输入关键字'/>
+                        <input class='clearfix' placeholder='请输入关键字' />
                     </div>
                 </div>
             </header>
